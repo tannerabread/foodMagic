@@ -1,9 +1,14 @@
+:root {
+  --linkBlue: #61dafb;
+  --headerGray: #282c34;
+}
+
 .App {
   text-align: center;
 }
 
 .navLink {
-  color: white;
+  color: var(--linkBlue);
   margin: 0 10px;
 }
 
@@ -14,7 +19,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: var(--headerGray);
   min-height: 15vh;
   display: flex;
   flex-direction: column;
@@ -22,10 +27,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  box-shadow: 1px 1px 2px white;
 }
 
 .App-link {
-  color: #61dafb;
+  color: var(--linkBlue);
 }
 
 @keyframes App-logo-spin {
