@@ -14,11 +14,12 @@ function App() {
             rel="noopener noreferrer"
           > Spoonacular API</a> for awesome recipes and information
         </p>
+        <nav style={{ borderBottom: "solid 1px", paddingBottom: "1rem" }}>
+          <Link to="/" className="navLink">Home</Link>
+          <Link to="/search" className="navLink">Search</Link>
+        </nav>
       </header>
-      <nav style={{ borderBottom: "solid 1px", paddingBottom: "1rem" }}>
-        <Link to="/">Home</Link>
-        <Link to="/search">Search</Link>
-      </nav>
+      
     </div>
   )
 }
